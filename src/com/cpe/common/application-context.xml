@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="metal" class="com.cpe.beans.Metal">
+		<property name="metalName" value="Steel"></property>
+		<property name="dimension" value="120,80,20"></property>
+		
+	</bean>
+	<!-- <bean id="dimension" class="com.cpe.beans.Dimensions" ></bean> -->
+	<!-- <bean id="dimension" class="com.cpe.beans.Dimensions">
+		<property name="length" value="120"></property>
+		<property name="width" value="80"></property>
+		<property name="thickness" value="20"></property>
+	</bean> -->
+</beans> 
